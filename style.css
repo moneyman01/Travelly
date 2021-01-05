@@ -61,6 +61,9 @@ button:hover{
 .main-head{
     background-color: #131c27;
     color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 nav {
     min-height: 10vh;
@@ -82,7 +85,7 @@ nav ul {
     flex: 2 1 40rem;
 }
 
-.hero{
+#hero{
     min-height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url("img/landing-page.jpg");
@@ -256,7 +259,7 @@ footer{
     min-height: 10vh;
     flex-wrap: wrap;
 }
-.footer h5{
+footer h5{
     flex: 1 1 40rem;
 }
 footer ul{
